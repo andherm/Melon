@@ -1,33 +1,25 @@
-<link rel=stylesheet type=text/css href="{{ url_for('static', filename='css.css') }}">
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='css.css') }}">
+</head>
 
-<div class="hej">
-<strong>
-	<i>
-		Hello World!
-	</i>
-</strong>
+<body>
+{% include 'navbar.html' %}
 
-</br>
+	<!-- Content - heading -->
+	<div class="container">
+	  <div class="row">
+	    <div class="col-sm">
+	      One of three columns
+	    </div>
+	    <div class="col-sm">
+	      <h1>Träningssida</h1>
+	    </div>
+	    <div class="col-sm">
+	      One of three columns
+	    </div>
+	  </div>
+	</div>
+	
 
-<strong>
-	<i>
-		Hello World!
-	</i>
-</strong>
-</div>
-
-<div id="lol">
-<strong>
-	<i>
-		Hello World!
-	</i>
-</strong>
-
-</br>
-
-<strong>
-	<i>
-		Hello World!
-	</i>
-</strong>
-</div>
+</body>
